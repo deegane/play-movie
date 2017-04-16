@@ -1,6 +1,7 @@
 package model;
 
 import com.fasterxml.jackson.annotation.*;
+import com.google.common.base.MoreObjects;
 
 import java.util.HashMap;
 import java.util.List;
@@ -36,6 +37,13 @@ import java.util.Map;
 		"Response"
 })
 public class Movie {
+
+	private String overallRating = "0.0";
+
+	public void setOverallRating(String overallRating) {
+		this.overallRating = overallRating;
+	}
+
 	@JsonProperty("Title")
 	public String title;
 	@JsonProperty("Year")
@@ -113,9 +121,10 @@ public class Movie {
 
 	@Override
 	public String toString() {
-		return "Movie{" +
-				"title='" + title + '\'' +
-				", ratings=" + ratings +
-				'}';
+		return MoreObjects.toStringHelper(this)
+				.add("overallRating", overallRating)
+				.add("title", title)
+				.add("ratings", ratings)
+				.toString();
 	}
 }

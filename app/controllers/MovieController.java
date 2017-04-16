@@ -1,7 +1,7 @@
 package controllers;
 
 
-import com.google.common.collect.Lists;
+import dao.MovieDAO;
 import model.Movie;
 import play.libs.Json;
 import play.mvc.Controller;
@@ -9,8 +9,8 @@ import play.mvc.Result;
 import services.MovieService;
 
 import javax.inject.Inject;
+import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.CompletionStage;
@@ -19,35 +19,42 @@ import java.util.concurrent.ExecutionException;
 public class MovieController extends Controller {
 
     private MovieService movieService;
+    private MovieDAO movieDAO;
 
     @Inject
-    public MovieController(MovieService movieService) {
+    public MovieController(MovieService movieService, MovieDAO movieDAO) {
         this.movieService = movieService;
+        this.movieDAO = movieDAO;
     }
 
-    public Result index() {
+    public Result movie(String firstMovie, String secondMovie) throws Exception {
 
-        List<String> movieTitles = Lists.newArrayList("predator","the terminator");
         List<Movie> movies = new ArrayList<>();
 
         List<CompletionStage<Movie>> futures = new ArrayList<>();
+        futures.add(movieService.getMovie(firstMovie));
+        futures.add(movieService.getMovie(secondMovie));
 
-        for(String title : movieTitles) {
-            futures.add(movieService.getMovie(title));
-        }
-
-        // Wait for all movies before sorting and returning
         try {
-
             for (CompletionStage<Movie> movie : futures) {
-                movies.add(movie.toCompletableFuture().get());
+                Movie m = movie.toCompletableFuture().get();
+                checkRating(m);
+                movies.add(m);
             }
         } catch (InterruptedException | ExecutionException e) {
             // all is lost
         }
 
-        Collections.sort(movies, Comparator.comparing(Movie::getImdbRating).reversed());
+        movies.sort(Comparator.comparing(Movie::getImdbRating).reversed());
+        return ok(Json.toJson(movies));
+    }
 
-        return ok(Json.toJson(movies.get(0)));
+    private void checkRating(Movie m) throws SQLException {
+        String storedRating = movieDAO.getRating(m.title);
+        if(!storedRating.isEmpty()) {
+            m.setOverallRating(storedRating);
+        } else {
+            m.setOverallRating(m.getImdbRating());
+        }
     }
 }

@@ -1,4 +1,6 @@
 import com.google.inject.AbstractModule;
+import dao.MovieDAO;
+import dao.MovieDAOImpl;
 import services.MovieImpl;
 import services.MovieService;
 
@@ -22,6 +24,7 @@ public class Module extends AbstractModule {
         bind(Clock.class).toInstance(Clock.systemDefaultZone());
 
         bind(MovieService.class).to(MovieImpl.class);
+        bind(MovieDAO.class).to(MovieDAOImpl.class);
     }
 
 }
