@@ -33,6 +33,6 @@ public class JdbcRepository {
     }
 
      Connection getConnection() {
-        return connection;
+        return db.getConnection();
     }
 }

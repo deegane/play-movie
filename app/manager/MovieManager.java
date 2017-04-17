@@ -1,7 +1,10 @@
 package manager;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import dao.MovieDAO;
+import model.LocalMovie;
 import model.Movie;
+import play.libs.Json;
 import service.FetchMovieService;
 
 import javax.inject.Inject;
@@ -25,6 +28,7 @@ public class MovieManager {
 
     //TODO: get both local and remote movies async then join up
     public List<Movie> getOrderedByBestMovie(List<String> titles) throws SQLException {
+
         List<Movie> fetchedMovies = new ArrayList<>();
 
         List<CompletionStage<Movie>> fetchedFutures = new ArrayList<>();
@@ -45,6 +49,10 @@ public class MovieManager {
 
         fetchedMovies.sort(Comparator.comparing(Movie::getImdbRating).reversed());
         return fetchedMovies;
+    }
+
+    public void postMovieRating(String title, String rating) {
+        movieDAO.postMovieRating(title, rating);
     }
 
     private void checkRating(Movie m) throws SQLException {

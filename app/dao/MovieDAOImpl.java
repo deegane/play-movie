@@ -6,6 +6,7 @@ import model.LocalMovie;
 import play.db.Database;
 
 import javax.inject.Inject;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.List;
 
@@ -29,7 +30,7 @@ public class MovieDAOImpl extends JdbcRepository implements MovieDAO {
             }
             return new LocalMovie("", "");
         } catch(Exception e) {
-            // do something
+            e.printStackTrace();
             return new LocalMovie("","");
         }
     }
@@ -48,8 +49,30 @@ public class MovieDAOImpl extends JdbcRepository implements MovieDAO {
             }
             return "";
         } catch (Exception e) {
-            // do something
+            e.printStackTrace();
             return "";
+        }
+    }
+
+    public void postMovieRating(String title, String rating) {
+
+        try {
+            String sql = "INSERT INTO movies (title, rating) VALUES (?, ?) " +
+                    "ON DUPLICATE KEY UPDATE rating = ?";
+
+            PreparedStatement ps = getConnection().prepareStatement(sql);
+            ps.setString(1,title);
+            ps.setString(2,rating);
+            ps.setString(3,rating);
+
+            int rowUpdated = ps.executeUpdate();
+
+            if(rowUpdated>0) {
+                System.out.println(String.format("updated rating for %s to %s", title, rating));
+            }
+
+        } catch(Exception e) {
+            e.printStackTrace();
         }
     }
 }

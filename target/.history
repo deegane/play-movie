@@ -34,3 +34,11 @@ clean
 clea
 clean
 exit
+compile
+clean
+exit
+clean-files
+clean
+clean-files
+git status
+exit

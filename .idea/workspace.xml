@@ -2,86 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c840bb32-ca98-4a3e-be69-36de0551cad8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/dao/JdbcRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/manager/MovieManager.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$03a5723bbd20f111cbc6$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$03a5723bbd20f111cbc6.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$03a5723bbd20f111cbc6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$1ae9bfb526c1a0dab2ca$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$1ae9bfb526c1a0dab2ca.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$1ae9bfb526c1a0dab2ca.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$2e004fe047d9aa2419aa$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$2e004fe047d9aa2419aa.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$2e004fe047d9aa2419aa.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$39c8cd8ffd5db5c6e304$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$39c8cd8ffd5db5c6e304.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$39c8cd8ffd5db5c6e304.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$4ead3120a0ee6d18d35e$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$4ead3120a0ee6d18d35e.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$4ead3120a0ee6d18d35e.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$75772ae079ebf814aaed$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$75772ae079ebf814aaed.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$75772ae079ebf814aaed.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ab1d17a4bbf3e7eb9108$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ab1d17a4bbf3e7eb9108.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ab1d17a4bbf3e7eb9108.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ccdfa8311907bcfe0909$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ccdfa8311907bcfe0909.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ccdfa8311907bcfe0909.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ff0c0fc405205803a00c$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ff0c0fc405205803a00c.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ff0c0fc405205803a00c.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a8db877a2fcd6fb61b31$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a8db877a2fcd6fb61b31$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a8db877a2fcd6fb61b31.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a8db877a2fcd6fb61b31.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$af6340216ed3d7736659$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$af6340216ed3d7736659$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$af6340216ed3d7736659.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$af6340216ed3d7736659.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$c228c2bda4fba1ef149c$$anonfun$root$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$c228c2bda4fba1ef149c$$anonfun$root$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$c228c2bda4fba1ef149c$$anonfun$root$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$c228c2bda4fba1ef149c$$anonfun$root$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$c228c2bda4fba1ef149c$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$c228c2bda4fba1ef149c.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$c228c2bda4fba1ef149c.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e58edb6aeff87ba74e88$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e58edb6aeff87ba74e88$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e58edb6aeff87ba74e88.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e58edb6aeff87ba74e88.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f757e33a2dd9725e031f$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f757e33a2dd9725e031f$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f757e33a2dd9725e031f.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f757e33a2dd9725e031f.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/services/MovieImpl.java" afterPath="$PROJECT_DIR$/app/service/OmdbImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/services/MovieService.java" afterPath="$PROJECT_DIR$/app/service/FetchMovieService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2ca79c80ab8e99da505b$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2ca79c80ab8e99da505b$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2ca79c80ab8e99da505b.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$316c160fea910f56e65c$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$316c160fea910f56e65c$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$316c160fea910f56e65c.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$64fcd16d37d040307c3d$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$64fcd16d37d040307c3d$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$64fcd16d37d040307c3d.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$8da92c36460967f4714f$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$8da92c36460967f4714f$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$8da92c36460967f4714f.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d3fdcc9d4f9c09edf373$$anonfun$root$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d3fdcc9d4f9c09edf373$$anonfun$root$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d3fdcc9d4f9c09edf373$$anonfun$root$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d3fdcc9d4f9c09edf373$$anonfun$root$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d3fdcc9d4f9c09edf373$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d3fdcc9d4f9c09edf373.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2ca79c80ab8e99da505b.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$316c160fea910f56e65c.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$64fcd16d37d040307c3d.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$8da92c36460967f4714f.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d3fdcc9d4f9c09edf373.cache" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/play-movie-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/play-movie-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Module.java" afterPath="$PROJECT_DIR$/app/Module.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/MovieController.java" afterPath="$PROJECT_DIR$/app/controllers/MovieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dao/JdbcRepository.java" afterPath="$PROJECT_DIR$/app/dao/JdbcRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dao/MovieDAO.java" afterPath="$PROJECT_DIR$/app/dao/MovieDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dao/MovieDAOImpl.java" afterPath="$PROJECT_DIR$/app/dao/MovieDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/manager/MovieManager.java" afterPath="$PROJECT_DIR$/app/manager/MovieManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/LocalMovie.java" afterPath="$PROJECT_DIR$/app/model/LocalMovie.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/play-movie-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/play-movie-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/play-movie-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/play-movie-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
@@ -94,7 +66,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -159,9 +130,12 @@
       <file leaf-file-name="MovieDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dao/MovieDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,13 +143,15 @@
       <file leaf-file-name="MovieDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dao/MovieDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="158">
+              <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <marker date="1492461203293" expanded="true" signature="1030:1078" ph="select ratin... movies" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <marker date="1492465151069" expanded="true" signature="1070:1118" ph="select ratin... movies" />
+                <marker date="1492465151069" expanded="true" signature="1592:1699" ph="INSERT INTO movies... " />
+                <marker date="1492465151069" expanded="true" signature="1592:1700" ph="INSERT INTO movies... " />
               </folding>
             </state>
           </provider>
@@ -184,31 +160,11 @@
       <file leaf-file-name="JdbcRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dao/JdbcRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="653">
+              <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OmdbImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/service/OmdbImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="28" column="69" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FetchMovieService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/service/FetchMovieService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -216,96 +172,82 @@
       <file leaf-file-name="MovieController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/MovieController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="488">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Module.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Module.java">
+      <file leaf-file-name="JavaAction.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.10-sources.jar!/play/core/j/JavaAction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="281">
+              <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Http.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.10-sources.jar!/play/mvc/Http.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="717" column="11" lean-forward="false" selection-start-line="717" selection-start-column="11" selection-end-line="717" selection-end-column="11" />
+              <folding>
+                <element signature="e#20972#20973#0" expanded="true" />
+                <element signature="e#21048#21049#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/routes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="76" lean-forward="false" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/manager/MovieManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="316">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1680#1681#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompletableFuture.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <file leaf-file-name="JsonNode.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.7.8-sources.jar!/com/fasterxml/jackson/databind/JsonNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="1812" column="43" lean-forward="false" selection-start-line="1812" selection-start-column="43" selection-end-line="1812" selection-end-column="43" />
-              <folding>
-                <element signature="e#14929#14959#1" expanded="false" />
-                <element signature="e#15533#15563#1" expanded="false" />
-                <element signature="e#17135#17162#0" expanded="false" />
-                <element signature="e#19810#19837#0" expanded="false" />
-                <element signature="e#21922#21949#0" expanded="false" />
-                <element signature="e#23319#23349#1" expanded="false" />
-                <element signature="e#23970#23997#0" expanded="false" />
-                <element signature="e#25298#25328#1" expanded="false" />
-                <element signature="e#26001#26028#0" expanded="false" />
-                <element signature="e#27720#27747#0" expanded="false" />
-                <element signature="e#29098#29128#1" expanded="false" />
-                <element signature="e#29995#30022#0" expanded="false" />
-                <element signature="e#31374#31404#1" expanded="false" />
-                <element signature="e#32092#32119#0" expanded="false" />
-                <element signature="e#34034#34061#0" expanded="false" />
-                <element signature="e#34809#34836#0" expanded="false" />
-                <element signature="e#36237#36267#1" expanded="false" />
-                <element signature="e#37360#37390#1" expanded="false" />
-                <element signature="e#38279#38306#0" expanded="false" />
-                <element signature="e#38714#38741#0" expanded="false" />
-                <element signature="e#40365#40392#0" expanded="false" />
-                <element signature="e#42252#42282#1" expanded="false" />
-                <element signature="e#42313#42343#1" expanded="false" />
-                <element signature="e#43109#43136#0" expanded="false" />
-                <element signature="e#44978#45008#1" expanded="false" />
-                <element signature="e#45039#45069#1" expanded="false" />
-                <element signature="e#45848#45875#0" expanded="false" />
-                <element signature="e#48082#48109#0" expanded="false" />
-                <element signature="e#51035#51062#0" expanded="false" />
-                <element signature="e#52741#52771#1" expanded="false" />
-                <element signature="e#53532#53559#0" expanded="false" />
-                <element signature="e#55220#55250#1" expanded="false" />
-                <element signature="e#56015#56042#0" expanded="false" />
-                <element signature="e#58135#58162#0" expanded="false" />
-                <element signature="e#60004#60031#0" expanded="false" />
-                <element signature="e#61312#61339#0" expanded="false" />
-                <element signature="e#62827#62854#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="299">
+              <caret line="525" column="27" lean-forward="false" selection-start-line="525" selection-start-column="27" selection-end-line="525" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocalMovie.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LocalMovie.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/model/LocalMovie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="264">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -351,7 +293,6 @@
         <option value="$PROJECT_DIR$/app/services/MovieService.java" />
         <option value="$PROJECT_DIR$/app/model/MovieComparator.java" />
         <option value="$PROJECT_DIR$/app/model/Rating.java" />
-        <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/views/index.scala.html" />
         <option value="$PROJECT_DIR$/app/views/result.scala.html" />
         <option value="$PROJECT_DIR$/app/views/main.scala.html" />
@@ -360,17 +301,18 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/app/model/Movie.java" />
         <option value="$PROJECT_DIR$/app/services/MovieImpl.java" />
-        <option value="$PROJECT_DIR$/app/dao/JdbcRepository.java" />
         <option value="$PROJECT_DIR$/app/services/MovieServiceImpl.java" />
         <option value="$PROJECT_DIR$/app/services/MovieWebServiceImpl.java" />
         <option value="$PROJECT_DIR$/app/services/OmdbServiceImpl.java" />
         <option value="$PROJECT_DIR$/app/service/OmdbServiceImpl.java" />
         <option value="$PROJECT_DIR$/app/Module.java" />
-        <option value="$PROJECT_DIR$/app/controllers/MovieController.java" />
-        <option value="$PROJECT_DIR$/app/model/LocalMovie.java" />
         <option value="$PROJECT_DIR$/app/dao/MovieDAO.java" />
-        <option value="$PROJECT_DIR$/app/dao/MovieDAOImpl.java" />
+        <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/manager/MovieManager.java" />
+        <option value="$PROJECT_DIR$/app/controllers/MovieController.java" />
+        <option value="$PROJECT_DIR$/app/dao/JdbcRepository.java" />
+        <option value="$PROJECT_DIR$/app/dao/MovieDAOImpl.java" />
+        <option value="$PROJECT_DIR$/app/model/LocalMovie.java" />
       </list>
     </option>
   </component>
@@ -721,7 +663,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PlayNStuff" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cms" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -1292,7 +1234,7 @@
       <workItem from="1492377452402" duration="85000" />
       <workItem from="1492377548127" duration="8977000" />
       <workItem from="1492389764831" duration="707000" />
-      <workItem from="1492442059823" duration="12360000" />
+      <workItem from="1492442059823" duration="16444000" />
     </task>
     <servers />
   </component>
@@ -1302,7 +1244,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39795000" />
+    <option name="totallyTimeSpent" value="43879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="3200" height="1769" extended-state="6" />
@@ -1390,7 +1332,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="48" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/manager/MovieManager.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1399,20 +1349,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.7.8-sources.jar!/com/fasterxml/jackson/databind/JsonNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4454">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.5.10-sources.jar!/play/libs/Json.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/utility.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1448,14 +1384,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movie.scala.html" />
-    <entry file="file://$PROJECT_DIR$/conf/routes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="69" lean-forward="false" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/hello.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1609,17 +1537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="110" column="18" lean-forward="false" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
-          <folding>
-            <element signature="e#2335#2336#0" expanded="false" />
-            <element signature="e#2385#2386#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.inject/guice/srcs/guice-4.0-sources.jar!/com/google/inject/binder/ScopedBindingBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
@@ -1682,10 +1599,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.10-sources.jar!/play/core/j/JavaAction.scala">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/CompletableFuture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="283">
+          <caret line="1812" column="43" lean-forward="false" selection-start-line="1812" selection-start-column="43" selection-end-line="1812" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="110" column="18" lean-forward="false" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+          <folding>
+            <element signature="e#2335#2336#0" expanded="false" />
+            <element signature="e#2385#2386#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Module.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/OmdbImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1698,129 +1642,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Module.java">
+    <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <state relative-caret-position="198">
+          <caret line="6" column="76" lean-forward="false" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/LocalMovie.java">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.7.8-sources.jar!/com/fasterxml/jackson/databind/JsonNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/dao/JdbcRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/service/OmdbImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="28" column="69" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="69" />
+        <state relative-caret-position="299">
+          <caret line="525" column="27" lean-forward="false" selection-start-line="525" selection-start-column="27" selection-end-line="525" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/CompletableFuture.java">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.10-sources.jar!/play/mvc/Http.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="1812" column="43" lean-forward="false" selection-start-line="1812" selection-start-column="43" selection-end-line="1812" selection-end-column="43" />
+        <state relative-caret-position="580">
+          <caret line="717" column="11" lean-forward="false" selection-start-line="717" selection-start-column="11" selection-end-line="717" selection-end-column="11" />
           <folding>
-            <element signature="e#14929#14959#1" expanded="false" />
-            <element signature="e#15533#15563#1" expanded="false" />
-            <element signature="e#17135#17162#0" expanded="false" />
-            <element signature="e#19810#19837#0" expanded="false" />
-            <element signature="e#21922#21949#0" expanded="false" />
-            <element signature="e#23319#23349#1" expanded="false" />
-            <element signature="e#23970#23997#0" expanded="false" />
-            <element signature="e#25298#25328#1" expanded="false" />
-            <element signature="e#26001#26028#0" expanded="false" />
-            <element signature="e#27720#27747#0" expanded="false" />
-            <element signature="e#29098#29128#1" expanded="false" />
-            <element signature="e#29995#30022#0" expanded="false" />
-            <element signature="e#31374#31404#1" expanded="false" />
-            <element signature="e#32092#32119#0" expanded="false" />
-            <element signature="e#34034#34061#0" expanded="false" />
-            <element signature="e#34809#34836#0" expanded="false" />
-            <element signature="e#36237#36267#1" expanded="false" />
-            <element signature="e#37360#37390#1" expanded="false" />
-            <element signature="e#38279#38306#0" expanded="false" />
-            <element signature="e#38714#38741#0" expanded="false" />
-            <element signature="e#40365#40392#0" expanded="false" />
-            <element signature="e#42252#42282#1" expanded="false" />
-            <element signature="e#42313#42343#1" expanded="false" />
-            <element signature="e#43109#43136#0" expanded="false" />
-            <element signature="e#44978#45008#1" expanded="false" />
-            <element signature="e#45039#45069#1" expanded="false" />
-            <element signature="e#45848#45875#0" expanded="false" />
-            <element signature="e#48082#48109#0" expanded="false" />
-            <element signature="e#51035#51062#0" expanded="false" />
-            <element signature="e#52741#52771#1" expanded="false" />
-            <element signature="e#53532#53559#0" expanded="false" />
-            <element signature="e#55220#55250#1" expanded="false" />
-            <element signature="e#56015#56042#0" expanded="false" />
-            <element signature="e#58135#58162#0" expanded="false" />
-            <element signature="e#60004#60031#0" expanded="false" />
-            <element signature="e#61312#61339#0" expanded="false" />
-            <element signature="e#62827#62854#0" expanded="false" />
+            <element signature="e#20972#20973#0" expanded="true" />
+            <element signature="e#21048#21049#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dao/MovieDAOImpl.java">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.10-sources.jar!/play/core/j/JavaAction.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <marker date="1492461203293" expanded="true" signature="1030:1078" ph="select ratin... movies" />
-          </folding>
+        <state relative-caret-position="281">
+          <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/dao/MovieDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="330">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/manager/MovieManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="316">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/JdbcRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/MovieDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <marker date="1492465151069" expanded="true" signature="1070:1118" ph="select ratin... movies" />
+            <marker date="1492465151069" expanded="true" signature="1592:1699" ph="INSERT INTO movies... " />
+            <marker date="1492465151069" expanded="true" signature="1592:1700" ph="INSERT INTO movies... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/LocalMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
           </folding>
         </state>
       </provider>
