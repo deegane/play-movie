@@ -46,3 +46,8 @@ compile
 clean
 clean-files
 exit
+compile
+exit
+clean
+clean-files
+exit

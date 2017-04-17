@@ -2,99 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c840bb32-ca98-4a3e-be69-36de0551cad8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543$$anonfun$$sbtdef$1$$anonfun$apply$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543$$anonfun$$sbtdef$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543$$anonfun$$sbtdef$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$5b1ba9988a7d547e2260$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$5b1ba9988a7d547e2260.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_actor_2_11_2_4_14_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_slf4j_2_11_2_4_14_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_stream_2_11_2_4_14_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_build_link_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_2_11_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_datacommons_2_11_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_exceptions_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_functional_2_11_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_iteratees_2_11_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_netty_server_2_11_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_netty_utils_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_server_2_11_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_streams_2_11_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_test_2_11_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_ws_2_11_2_5_12_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_buffer_4_0_42_Final_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_codec_4_0_42_Final_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_codec_http_4_0_42_Final_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_common_4_0_42_Final_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_handler_4_0_42_Final_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_transport_4_0_42_Final_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_transport_native_epoll_4_0_42_Final_linux_x86_64_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_asynchttpclient_async_http_client_2_0_24_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_asynchttpclient_async_http_client_netty_utils_2_0_24_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_asynchttpclient_netty_codec_dns_2_0_24_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_asynchttpclient_netty_resolver_2_0_24_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_asynchttpclient_netty_resolver_dns_2_0_24_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_javassist_javassist_3_21_0_GA_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_5_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_8_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalactic_scalactic_2_11_3_0_1_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatest_scalatest_2_11_3_0_1_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatestplus_play_scalatestplus_play_2_11_2_0_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_htmlunit_driver_2_21_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$5b1ba9988a7d547e2260.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/model/MovieSpec.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/model/MovieTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_htmlunit_driver_2_48_2_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_webbitserver_webbit_0_4_14_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e6c105d623b9d3006209$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e6c105d623b9d3006209.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_test_2_11_2_5_10_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_play_play_json_2_11_2_5_12_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_3_5_2_Final_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_3_5_7_Final_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_api_2_48_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_api_2_53_1_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_chrome_driver_2_48_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_chrome_driver_2_53_1_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_edge_driver_2_48_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_edge_driver_2_53_1_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_firefox_driver_2_48_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_firefox_driver_2_53_1_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_ie_driver_2_48_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_ie_driver_2_53_1_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_java_2_48_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_java_2_53_1_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_leg_rc_2_48_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_leg_rc_2_53_1_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_remote_driver_2_48_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_remote_driver_2_53_1_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_safari_driver_2_48_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_safari_driver_2_53_1_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_support_2_48_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_seleniumhq_selenium_selenium_support_2_53_1_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e6c105d623b9d3006209$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$5b1ba9988a7d547e2260$.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e6c105d623b9d3006209.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543.cache" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543$$anonfun$$sbtdef$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543$$anonfun$$sbtdef$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$1146eb02856170631543.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/play2_project_settings.xml" afterPath="$PROJECT_DIR$/.idea/play2_project_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/play2_settings.xml" afterPath="$PROJECT_DIR$/.idea/play2_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Movie.java" afterPath="$PROJECT_DIR$/app/model/Movie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Rating.java" afterPath="$PROJECT_DIR$/app/model/Rating.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/play-movie-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/play-movie-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/play-movie-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/play-movie-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-movie-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/model/MovieSpec.scala" afterPath="$PROJECT_DIR$/test/model/MovieSpec.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -221,8 +141,8 @@
       <file leaf-file-name="MovieSpec.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/model/MovieSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -251,8 +171,8 @@
       <file leaf-file-name="ApplicationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/ApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="452">
+              <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -742,33 +662,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.MovieSpec.A Movie must have a title">
-    <configuration default="false" name="MovieTest.testRatingComparisonFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
-      <option name="METHOD_NAME" value="testRatingComparisonFail" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.MovieSpec.A Movie must have a title and rating must match">
     <configuration default="false" name="MovieTest.testRatingComparisonSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -850,6 +744,25 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="A Movie must have a title" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MovieSpec.A Movie must have a title and rating must match" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="root" />
+      <setting name="path" value="model.MovieSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="A Movie must have a title and rating must match" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <setting name="useSbt" value="false" />
@@ -1329,19 +1242,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Play 2 App.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MovieTest.testRatingComparisonFail" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MovieTest.testRatingComparisonSuccess" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MovieTest" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.StackSpec.A Stack must pop values in last-in-first-out order" />
-      <item index="5" class="java.lang.String" itemvalue="ScalaTest.MovieSpec.A Movie must have a title" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MovieTest.testRatingComparisonSuccess" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MovieTest" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.StackSpec.A Stack must pop values in last-in-first-out order" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.MovieSpec.A Movie must have a title" />
+      <item index="5" class="java.lang.String" itemvalue="ScalaTest.MovieSpec.A Movie must have a title and rating must match" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.MovieSpec.A Movie must have a title" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.StackSpec.A Stack must pop values in last-in-first-out order" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MovieTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MovieTest.testRatingComparisonSuccess" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MovieTest.testRatingComparisonFail" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.MovieSpec.A Movie must have a title and rating must match" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.MovieSpec.A Movie must have a title" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.StackSpec.A Stack must pop values in last-in-first-out order" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MovieTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MovieTest.testRatingComparisonSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -1393,7 +1306,7 @@
       <workItem from="1492377452402" duration="85000" />
       <workItem from="1492377548127" duration="8977000" />
       <workItem from="1492389764831" duration="707000" />
-      <workItem from="1492442059823" duration="18434000" />
+      <workItem from="1492442059823" duration="18560000" />
     </task>
     <servers />
   </component>
@@ -1410,6 +1323,9 @@
     <history-entry file="MovieSpec_A_Movie_must_have_a_title - 2017.04.17 at 23h 18m 57s.xml">
       <configuration name="MovieSpec.A Movie must have a title" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="MovieSpec_A_Movie_must_have_a_title_and_rating_must_match - 2017.04.17 at 23h 21m 45s.xml">
+      <configuration name="MovieSpec.A Movie must have a title and rating must match" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
     <history-entry file="MovieTest - 2017.04.17 at 23h 12m 59s.xml">
       <configuration name="MovieTest" configurationId="JUnit" />
     </history-entry>
@@ -1419,9 +1335,6 @@
     <history-entry file="MovieTest - 2017.04.17 at 23h 13m 25s.xml">
       <configuration name="MovieTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_testRatingComparisonFail - 2017.04.17 at 23h 11m 35s.xml">
-      <configuration name="MovieTest.testRatingComparisonFail" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MovieTest_testRatingComparisonSuccess - 2017.04.17 at 23h 11m 44s.xml">
       <configuration name="MovieTest.testRatingComparisonSuccess" configurationId="JUnit" />
     </history-entry>
@@ -1430,7 +1343,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45869000" />
+    <option name="totallyTimeSpent" value="45995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="3200" height="1769" extended-state="6" />
@@ -1456,7 +1369,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1891,14 +1804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Rating.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1942,10 +1847,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/model/MovieSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
