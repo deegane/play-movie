@@ -3,6 +3,7 @@ package model;
 import com.fasterxml.jackson.annotation.*;
 import com.google.common.base.MoreObjects;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -73,7 +74,7 @@ public class Movie {
 	@JsonProperty("Poster")
 	public String poster;
 	@JsonProperty("Ratings")
-	public List<Rating> ratings = null;
+	public List<Rating> ratings = new ArrayList<>();
 	@JsonProperty("Metascore")
 	public String metascore;
 	@JsonProperty("imdbRating")
@@ -107,6 +108,12 @@ public class Movie {
 		this.additionalProperties.put(name, value);
 	}
 
+	public Movie() {
+	}
+
+	public Movie(String title) {
+		this.title=title;
+	}
 
 	public String getImdbRating() {
 		return getRating("Internet Movie Database");

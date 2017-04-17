@@ -13,6 +13,14 @@ import java.util.Map;
 })
 public class Rating {
 
+	public Rating() {
+	}
+
+	public Rating(String source, String value) {
+		this.source = source;
+		this.value = value;
+	}
+
 	@JsonProperty("Source")
 	public String source;
 	@JsonProperty("Value")

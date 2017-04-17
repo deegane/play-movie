@@ -42,3 +42,7 @@ clean
 clean-files
 git status
 exit
+compile
+clean
+clean-files
+exit
