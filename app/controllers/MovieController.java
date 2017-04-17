@@ -12,6 +12,15 @@ import play.mvc.Result;
 import javax.inject.Inject;
 import java.util.List;
 
+/*
+localhost:9000/movie?m1=predator&m2=the terminator
+
+localhost:9000/movie/update
+{
+  "title": "predator",
+  "rating": "9.5"
+}
+ */
 public class MovieController extends Controller {
 
     private MovieManager movieManager;
