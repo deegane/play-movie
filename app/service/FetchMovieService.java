@@ -1,10 +1,10 @@
-package services;
+package service;
 
 
 import model.Movie;
 
 import java.util.concurrent.CompletionStage;
 
-public interface MovieService {
+public interface FetchMovieService {
      CompletionStage<Movie> getMovie(String title);
 }

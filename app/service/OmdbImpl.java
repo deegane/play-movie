@@ -1,4 +1,4 @@
-package services;
+package service;
 
 import model.Movie;
 import play.libs.Json;
@@ -10,13 +10,13 @@ import javax.inject.Inject;
 import java.util.concurrent.CompletionStage;
 
 
-public class MovieImpl implements MovieService {
+public class OmdbImpl implements FetchMovieService {
 
     private final WSClient ws;
     private final static String BASE_URL = "http://www.omdbapi.com/";
 
     @Inject
-    public MovieImpl(WSClient ws) {
+    public OmdbImpl(WSClient ws) {
         this.ws=ws;
     }
 
@@ -30,4 +30,6 @@ public class MovieImpl implements MovieService {
 
         return movie;
     }
+
+
 }

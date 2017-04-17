@@ -1,8 +1,9 @@
 import com.google.inject.AbstractModule;
 import dao.MovieDAO;
 import dao.MovieDAOImpl;
-import services.MovieImpl;
-import services.MovieService;
+import manager.MovieManager;
+import service.FetchMovieService;
+import service.OmdbImpl;
 
 import java.time.Clock;
 
@@ -23,8 +24,9 @@ public class Module extends AbstractModule {
         // Use the system clock as the default implementation of Clock
         bind(Clock.class).toInstance(Clock.systemDefaultZone());
 
-        bind(MovieService.class).to(MovieImpl.class);
-        bind(MovieDAO.class).to(MovieDAOImpl.class);
+        bind(FetchMovieService.class).to(OmdbImpl.class).asEagerSingleton();
+        bind(MovieDAO.class).to(MovieDAOImpl.class).asEagerSingleton();
+        bind(MovieManager.class).asEagerSingleton();
     }
 
 }

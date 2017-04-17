@@ -1,38 +1,55 @@
 package dao;
 
 
+import com.google.common.collect.Lists;
+import model.LocalMovie;
 import play.db.Database;
 
 import javax.inject.Inject;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.util.List;
 
-public class MovieDAOImpl implements MovieDAO {
-
-    private Database db;
-    private Connection connection;
+public class MovieDAOImpl extends JdbcRepository implements MovieDAO {
 
     @Inject
     public MovieDAOImpl(Database db) {
-        this.db = db;
-        this.connection=db.getConnection();
+        super(db);
     }
 
-    public String getRating(String title) throws SQLException {
+    public LocalMovie getMovie(String title) {
+        try {
+            String sql = "select title, rating from movies where lower(title) = ?";
 
-        PreparedStatement preparedStatement =
-                connection.prepareStatement("select rating from movies where title = ?");
+            List<String> fieldValues = Lists.newArrayList(title.toLowerCase());
+            ResultSet rs = getResultSetWithParams(sql, fieldValues);
 
-        preparedStatement.setString(1, title);
-
-        ResultSet rs = preparedStatement.executeQuery();
-
-        while (rs.next()) {
-            return rs.getString("rating");
+            if(rs.next()) {
+                String rating = rs.getString("rating");
+                return new LocalMovie(title, rating);
+            }
+            return new LocalMovie("", "");
+        } catch(Exception e) {
+            // do something
+            return new LocalMovie("","");
         }
+    }
 
-        return "";
+
+    public String getRating(String title) {
+
+        try {
+
+            String sql = "select rating from movies where lower(title) = ?";
+            List<String> fieldValues = Lists.newArrayList(title.toLowerCase());
+            ResultSet rs = getResultSetWithParams(sql, fieldValues);
+
+            if(rs.next()) {
+                return rs.getString("rating");
+            }
+            return "";
+        } catch (Exception e) {
+            // do something
+            return "";
+        }
     }
 }

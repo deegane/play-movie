@@ -1,8 +1,10 @@
 package dao;
 
-import java.sql.SQLException;
+import model.LocalMovie;
 
 public interface MovieDAO {
 
-    String getRating(String title) throws SQLException;
+    String getRating(String title);
+
+    LocalMovie getMovie(String title);
 }

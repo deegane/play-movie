@@ -29,11 +29,8 @@ compile
 run
 compile
 exit
-compile
+tasks
 clean
-exit
-clean-all
-clean-files
-cleanFiles
+clea
 clean
 exit
