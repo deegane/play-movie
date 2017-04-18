@@ -12,5 +12,6 @@ libraryDependencies ++= Seq(
   javaWs,
   javaJdbc,
   "mysql" % "mysql-connector-java" % "5.1.36",
-  "org.scalatestplus.play" %% "scalatestplus-play" % "2.0.0" % "test"
+  "org.scalatestplus.play" %% "scalatestplus-play" % "2.0.0" % "test",
+  "org.mockito" % "mockito-core" % "2.7.22"
 )

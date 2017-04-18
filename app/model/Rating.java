@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.*;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
@@ -44,6 +45,20 @@ public class Rating {
 
 	public String getValue() {
 		return value;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		Rating rating = (Rating) o;
+		return Objects.equals(source, rating.source) &&
+				Objects.equals(value, rating.value);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(source, value);
 	}
 
 	@Override
