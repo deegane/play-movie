@@ -1,10 +1,8 @@
 package manager;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import dao.MovieDAO;
-import model.LocalMovie;
 import model.Movie;
-import play.libs.Json;
+import play.Configuration;
 import service.FetchMovieService;
 
 import javax.inject.Inject;
@@ -19,15 +17,19 @@ public class MovieManager {
 
     private FetchMovieService fetchMovieService;
     private MovieDAO movieDAO;
+    private Configuration configuration;
 
     @Inject
-    public MovieManager(FetchMovieService fetchMovieService, MovieDAO movieDAO) {
+    public MovieManager(FetchMovieService fetchMovieService, MovieDAO movieDAO, Configuration configuration) {
         this.fetchMovieService = fetchMovieService;
         this.movieDAO = movieDAO;
+        this.configuration = configuration;
     }
 
     //TODO: get both local and remote movies async then join up
     public List<Movie> getOrderedByBestMovie(List<String> titles) throws SQLException {
+
+        System.out.println(configuration.getString("omdbapi.url"));
 
         List<Movie> fetchedMovies = new ArrayList<>();
 

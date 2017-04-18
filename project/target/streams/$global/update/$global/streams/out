@@ -5,10 +5,6 @@
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
-[info] Resolving org.scala-sbt#global-plugins;0.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}
-[debug] 	found org.scala-sbt#global-plugins;0.0 in inter-project
 [debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.10 [compile->default(compile)]
 [info] Resolving com.typesafe.play#sbt-plugin;2.5.10 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#sbt-plugin;2.5.10 {compile=[default(compile)]}
@@ -2453,7 +2449,6 @@
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.10 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.10->com.typesafe.play#sbt-routes-compiler_2.10;2.5.10 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.10->com.typesafe.play#sbt-routes-compiler_2.10;2.5.10 [compile->runtime]
@@ -4258,7 +4253,6 @@
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.10 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.10->com.typesafe.play#sbt-routes-compiler_2.10;2.5.10 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.10->com.typesafe.play#sbt-routes-compiler_2.10;2.5.10 [compile->runtime]
@@ -6892,7 +6886,6 @@
 [debug] resolving dependencies for configuration 'compile-internal'
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [compile-internal]
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.10 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.10->com.typesafe.play#sbt-routes-compiler_2.10;2.5.10 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.10->com.typesafe.play#sbt-routes-compiler_2.10;2.5.10 [compile->runtime]
@@ -9307,7 +9300,6 @@
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [runtime-internal]
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.10 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.10->com.typesafe.play#sbt-routes-compiler_2.10;2.5.10 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.10->com.typesafe.play#sbt-routes-compiler_2.10;2.5.10 [compile->runtime]
@@ -11114,7 +11106,6 @@
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#play-movie-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#play-movie-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.10 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.10->com.typesafe.play#sbt-routes-compiler_2.10;2.5.10 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.10->com.typesafe.play#sbt-routes-compiler_2.10;2.5.10 [compile->runtime]
@@ -13754,7 +13745,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 4669ms :: artifacts dl 52ms
+[debug] :: resolution report :: resolve 2834ms :: artifacts dl 75ms
 [debug] 	report for default#play-movie-build;0.1-SNAPSHOT compile produced in /home/deegane/Documents/Dev/play-movie/project/target/resolution-cache/reports/default-play-movie-build-compile.xml
 [debug] 	report for default#play-movie-build;0.1-SNAPSHOT runtime produced in /home/deegane/Documents/Dev/play-movie/project/target/resolution-cache/reports/default-play-movie-build-runtime.xml
 [debug] 	report for default#play-movie-build;0.1-SNAPSHOT test produced in /home/deegane/Documents/Dev/play-movie/project/target/resolution-cache/reports/default-play-movie-build-test.xml
@@ -13768,5 +13759,5 @@
 [debug] 	report for default#play-movie-build;0.1-SNAPSHOT docs produced in /home/deegane/Documents/Dev/play-movie/project/target/resolution-cache/reports/default-play-movie-build-docs.xml
 [debug] 	report for default#play-movie-build;0.1-SNAPSHOT pom produced in /home/deegane/Documents/Dev/play-movie/project/target/resolution-cache/reports/default-play-movie-build-pom.xml
 [debug] 	report for default#play-movie-build;0.1-SNAPSHOT scala-tool produced in /home/deegane/Documents/Dev/play-movie/project/target/resolution-cache/reports/default-play-movie-build-scala-tool.xml
-[debug] 	resolve done (4669ms resolve - 52ms download)
+[debug] 	resolve done (2834ms resolve - 75ms download)
 [info] Done updating.

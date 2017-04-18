@@ -16,7 +16,7 @@ public class OmdbImpl implements FetchMovieService {
     private final static String BASE_URL = "http://www.omdbapi.com/";
 
     @Inject
-    public OmdbImpl(WSClient ws) {
+    public OmdbImpl(WSClient ws ) {
         this.ws=ws;
     }
 

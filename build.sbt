@@ -14,6 +14,3 @@ libraryDependencies ++= Seq(
   "mysql" % "mysql-connector-java" % "5.1.36",
   "org.scalatestplus.play" %% "scalatestplus-play" % "2.0.0" % "test"
 )
-
-
-//"org.postgresql" % "postgresql" % "42.0.0"
